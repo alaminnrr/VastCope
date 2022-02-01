@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card-title img{
+    width: 70px;
+    height: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.im img{
+    height: 800px;
+}
+@media screen and (max-width:600px) {
+    .im img{
+        display: block;
+        height: 260px;
+        
+    }
+ }
+
+.lid{
+    position: absolute;
+    top: 2%;
+    margin-left: 50%;
+    padding: 1rem;
+    word-spacing: 1rem;
+}
+.lid a:hover{
+    color: white;
+
+}
+@media screen and (max-width:600px) {
+    .lid{
+        display: block;
+       line-height: 200%;
+       margin-top: 20%;
+       margin-left: 10%;
+       font-size: .7rem;
+       
+        
+    }
+ }
+.lid a{
+    text-decoration: none;
+}
+.lid2{
+    position: absolute;
+    top: 17%;
+    width: 430px;
+    margin-left: 50%;  
+    text-align: center;
+    color: rgb(249,219,164);
+}
+@media screen and (max-width:600px) {
+    .lid2 h2{
+        display: block;
+        font-size: .9rem;
+        width: 100px;
+        color: #1b33cf;
+        margin-top: 9%;    
+    }
+ }
+.navbar{
+    background-color: #f5d3c9;
+   
+}
+button{
+    width: 10%;
+    height: 50px;
+    background-color:#e3a18d;
+}
+@media screen and (max-width:600px) {
+    button{
+        display: block;
+        width: 20%;
+    }
+ }
+.login{
+    padding: .3rem;
+    margin-right: .5rem;
+    color: white;
+    background-color: #31aaf5;
+    border-radius: 2rem;
+}
+.login:hover{
+    color:rgb(255, 255, 255) ;
+    background-color: rgb(0, 139, 204);
+}
+.register{
+    padding: .3rem;
+    color: white;
+    background-color: #31aaf5;
+    border-radius: 2rem;
+}
+.register:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 148, 216) ;
+}
+@media screen and (max-width:600px) {
+   .nav-justify-content-end{
+       margin-top: 3rem;
+   }
+}
+.lion h1{
+    text-align: center;
+    color: rgb(216,75,4);
+}
+.lion h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #737245;
+}
+@media screen and (max-width:600px) {
+    .lion h2{
+        display: block;
+        
+    }
+ }
+.lion2{
+    display: grid;
+    grid-template-columns: auto auto auto ; 
+    color:rgb(9,88,154);
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+    .lion2{
+        display: block;
+    }
+ }
+ .lion3{
+     background-color:#f2dcee;
+    
+ }
+ .lori{
+     text-align: center;
+     color: #eb3dd3;
+     
+ }
+ .fan{
+     text-align: center;
+     color: #eb3d9a;
+ }
+ .zix{
+     margin-left: 35%;
+ }
+ .fullcard{
+     display: grid;
+     grid-template-columns: auto auto;
+    
+ }
+ @media screen and (max-width:600px) {
+    .fullcard{
+        display: block;
+       
+    }
+ }
+ .qwer{
+     background-color: #f7bedd;
+ }
+ @media screen and (max-width:600px) {
+    .qwer{
+        display: block;
+    }
+ }
+ @media screen and (max-width:600px) {
+    .zix textarea{
+        display: block;
+        width: 90%;
+    }
+ }
+ @media screen and (max-width:600px) {
+    .zix input{
+        display: block;
+        width: 90%;
+    }
+ }
+ span{
+     font-size: 3rem;
+     color: rgb(49,170,245);
+ }
+ @media screen and (max-width:600px) {
+    span{
+        display: block;
+        font-size: 1rem;
+    }
+ }
+ .card-text{
+    margin-left: 60%;
+    font-size: 2rem;
+   
+    
+ }
+ 
+ @media screen and (max-width:600px) {
+    .card-text{
+        display: block;
+        font-size: 1rem;
+        color: black;
+        margin-top: 15%;
+    }
+ }
+ .card-img{
+     width: 40vh;
+     height: 40vh ;
+ }
+
+
+
+
+ 
